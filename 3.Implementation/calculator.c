@@ -1,13 +1,22 @@
 #include <stdio.h>
+int division(int main(int num1,int num2))
+{
+    int result = 0;
+    if(num2 != 0)
+    {
+        result = num1/num2;
+    }
+    return result;
+}
 int main(){
-    int num1,num2,num3;
+    int num1,num2;
     int result;
 
-    printf("Enter three numbers:");
-    scanf("%d %d %d",&num1,&num2,num3);
+    printf("Enter two numbers:");
+    scanf("%d %d",&num1,&num23);
 
-    result = num1+num2+num3;
+    result = num1/num2;
 
-    printf("Sum of %d %d and %d is %d\n",num1,num2,result);
+    printf("Division of %d %d and %d is %d\n",num1,num2,result);
     return 0;
 }
