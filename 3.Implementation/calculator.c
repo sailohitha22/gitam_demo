@@ -13,10 +13,10 @@ int main(){
     int result;
 
     printf("Enter two numbers:");
-    scanf("%d %d",&num1,&num23);
+    scanf("%d %d",&num1,&num2);
 
     result = num1/num2;
 
-    printf("Division of %d %d and %d is %d\n",num1,num2,result);
+    printf("Division of %d  and %d is %d\n",num1,num2,result);
     return 0;
 }
